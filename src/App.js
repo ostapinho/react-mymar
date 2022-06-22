@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Character from "./Components/Character/character";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Character name={'barT'}
+            desc={'llalallall'}
+            picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+
+            <Character name={'hoMer'}
+                       desc={'dou'}
+                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+        </div>
+    );
 }
 
 export default App;
