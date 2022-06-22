@@ -11,6 +11,18 @@ function App() {
             <Character name={'hoMer'}
                        desc={'dou'}
                        picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+
+            <Character name={'maRge'}
+                       desc={'Homie'}
+                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+
+            <Character name={'liza'}
+                       desc={'baaaart'}
+                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+
+            <Character name={'dad'}
+                       desc={'doooou'}
+                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
         </div>
     );
 }
