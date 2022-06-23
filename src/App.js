@@ -4,25 +4,16 @@ import Character from "./Components/Character/character";
 function App() {
     return (
         <div>
-            <Character name={'barT'}
-            desc={'llalallall'}
-            picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
-
-            <Character name={'hoMer'}
-                       desc={'dou'}
-                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
-
-            <Character name={'maRge'}
-                       desc={'Homie'}
-                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
-
-            <Character name={'liza'}
-                       desc={'baaaart'}
-                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
-
-            <Character name={'dad'}
-                       desc={'doooou'}
-                       picture={'https://www.softzone.es/app/uploads/2016/06/Bart-Simpson.png'}/>
+            <Character
+                id={1}
+                name={'Rick Sanchez'}
+                status={'Alive'}
+                species={'Human'}
+                gender={'Male'}
+                origin={'aa'}
+                alt={"rick"}
+                img={"1"}
+            />
         </div>
     );
 }

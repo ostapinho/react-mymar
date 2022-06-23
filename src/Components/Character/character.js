@@ -1,10 +1,13 @@
 function Character(props){
-    let {name,desc,picture} = props;
+    let {id,name,status,species,gender,image} = props;
     return (
         <div>
-            <h2>{name}</h2>
-            <p>{desc}</p>
-            <img src={picture} alt=""/>
+            <h1>{name}</h1>
+            <p>{id}</p>
+            <div>{status}</div>
+            <div>{species}</div>
+            <h2>{gender}</h2>
+            <img src={image} alt={name}/>
         </div>
 
     )
